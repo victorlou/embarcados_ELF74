@@ -1,7 +1,7 @@
 # Embedded Systems - ELF74 (UTFPR)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/victorlou/embarcados_ELF74?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/victorlou/embarcados_ELF74?style=for-the-badge)
 
 This repository is dedicated to the individual lab projects of the Embedded Systems course from the Computer Engineering course at the Federal University of Technology - Paraná (UTFPR).
 
@@ -12,8 +12,8 @@ Each of the directories listed in this repository contain standalone projects re
 This project is still in development and the following tasks correspond to the steps to be taken until the end of September 2021.
 
 - [x] Laboratorio 01
-- [x] Laboratorio 02
-- [x] Laboratorio 03
+- [ ] Laboratorio 02
+- [ ] Laboratorio 03
 - [ ] Laboratorio 04
 - [ ] Laboratorio 05
 ...
