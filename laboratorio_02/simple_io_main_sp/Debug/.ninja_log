@@ -1,0 +1,17 @@
+# ninja log v5
+219	418	6456568286155737	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	de3dfcb1957b4b8a
+1	470	6456568286654141	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	ba3c9e536e789e44
+289	528	6456568287332589	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	7a986b2f136557f5
+536	1552	6456568296857117	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	5fd41ba15d540e66
+0	346	6462689976173110	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	3a0ac03a5b7b15ac
+1	112	6462691007250363	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	3a0ac03a5b7b15ac
+1	56	6462693519966424	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	400dcfc1acd7c13e
+7	124	6462693520584772	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	3a0ac03a5b7b15ac
+19	162	6462693520953794	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	501806721787e17d
+175	265	6462693522002848	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	b35b2cf75609141f
+2	55	6463363737886104	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	400dcfc1acd7c13e
+12	137	6463363738673762	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	501806721787e17d
+16	147	6463363738713717	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	3a0ac03a5b7b15ac
+157	229	6463363739671129	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	7ffb8a9a7db49b01
+157	229	6463363739671129	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/List/simple_io_main_sp.map	7ffb8a9a7db49b01
+2	93	6463367811901499	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	b35b2cf75609141f
