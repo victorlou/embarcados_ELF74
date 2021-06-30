@@ -31,9 +31,10 @@ void main(void){
 
 /*
   Switching the optimization of the C compiler has a direct influence on the
-  performance of each cycle. For instance, with the "Medium" setting it is
-  possible to observe the LED blinking at a rate close to once per second, however,
-  switching the setting to "High" makes it blink faster.
+  performance of each cycle (which is related to the different compiler selection
+  of instructions to be executed). For instance, with the "Medium" setting it is
+  possible to observe the LED blinking at a rate close to once per second,
+  however, switching the setting to "High" makes it blink faster.
   
   Regarding the clock frequency, it is natural that the higher its value, the
   faster the microcontroller will be able to perform instructions. Nevertheless,
