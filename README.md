@@ -12,8 +12,8 @@ Each of the directories listed in this repository contain standalone projects re
 This project is still in development and the following tasks correspond to the steps to be taken until the end of September 2021.
 
 - [x] Laboratorio 01
-- [ ] Laboratorio 02
-- [ ] Laboratorio 03
+- [x] Laboratorio 02
+- [x] Laboratorio 03
 - [ ] Laboratorio 04
 - [ ] Laboratorio 05
 ...
