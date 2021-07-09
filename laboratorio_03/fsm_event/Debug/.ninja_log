@@ -1,0 +1,25 @@
+# ninja log v5
+17	76	6462693320396049	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/startup_TM4C1294.o	97a32be3dc5940e1
+11	136	6462693320924645	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+1	161	6462693321094179	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/driverleds.o	c1e5e6d7cce9ce9d
+27	193	6462693321473169	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/system_TM4C1294_TW.o	9bc0ccab0da99628
+203	320	6462693322770315	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	56d51039f620609b
+19	62	6463363575891737	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/startup_TM4C1294.o	97a32be3dc5940e1
+11	111	6463363576280701	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+15	143	6463363576629768	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/driverleds.o	c1e5e6d7cce9ce9d
+3	164	6463363576759417	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/system_TM4C1294_TW.o	9bc0ccab0da99628
+174	251	6463363577746781	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	794ff08b9a739493
+174	251	6463363577746781	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/List/fsm_event.map	794ff08b9a739493
+2	709	6475527679611406	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+725	1071	6475527683271734	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	56d51039f620609b
+20	359	6475528066313707	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+24	373	6475528066443366	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/startup_TM4C1294.o	97a32be3dc5940e1
+2	397	6475528066692685	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/driverleds.o	c1e5e6d7cce9ce9d
+15	422	6475528066822358	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/system_TM4C1294_TW.o	9bc0ccab0da99628
+436	505	6475528067829762	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	794ff08b9a739493
+436	505	6475528067829762	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/List/fsm_event.map	794ff08b9a739493
+3	80	6475528090480192	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	56d51039f620609b
+1	85	6475528387371136	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+100	175	6475528388302027	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	56d51039f620609b
+2	88	6475529378150725	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	de84dc81bcc19ab4
+102	180	6475529379078243	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	56d51039f620609b
