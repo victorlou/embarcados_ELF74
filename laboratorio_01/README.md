@@ -1,6 +1,6 @@
 ## Lab 01 - Control Familiarization (Blinking LED)
 
-Based on the project “simple_io_main_sp” in the workspace “TM4C1294_Bare_IAR9” (from the previously mentioned [repository]( https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9)):
+Based on the project “simple_io_main_sp” in the workspace “TM4C1294_Bare_IAR9” (from the previously mentioned [repository (bare)]( https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9)):
 * CPU clock frequency (PLL): 24MHz;
 * C compiler optimization level: low (low);
 * LED D4 should change state every 1s;

@@ -23,5 +23,4 @@ This project is still in development and the following tasks correspond to the s
 
 Before starting, note that the [IAR Embedded Workbench](https://www.iar.com/products/architectures/arm/iar-embedded-workbench-for-arm/) was used to run the projects, along with a compatible hardware set (more specifically the Tive C Series TM4C1294 Connected LaunchPad).
 
-Additionally,  please refer to [this repository](https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9) (written in Portuguese) for a detailed structure of the files and directories which will allow the projects to be run on IAR.
-
+Additionally,  please refer to [this repository (bare)](https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9) and [this repository (RTOS)](https://github.com/ELF74-SisEmb/TM4C1294_RTOS_IAR9)(written in Portuguese) for a detailed structure of the files and directories which will allow the projects to be run on IAR.

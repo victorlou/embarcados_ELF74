@@ -19,7 +19,7 @@ Simple execution of a blinking LEDc controlled by an exception routine.
 
 ### Exercise 3 (fsm_state)
 
-To create an FSM based on the Grey Code, the simplest method was to use one state for each binary configuration of the coding. This solution was based on the *"fsm_state"* directory from the previously mentioned [repository]( https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9)).
+To create an FSM based on the Grey Code, the simplest method was to use one state for each binary configuration of the coding. This solution was based on the *"fsm_state"* directory from the previously mentioned [repository (bare)]( https://github.com/ELF74-SisEmb/TM4C1294_Bare_IAR9)).
 
 ### Exercise 4
 
