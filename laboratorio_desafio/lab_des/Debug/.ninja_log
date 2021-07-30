@@ -1,0 +1,19 @@
+# ninja log v5
+6	132	6493171797338892	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/RTX_Config.o	75080e2f3cb0538e
+30	181	6493171797807653	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/system_TM4C1294_TW.o	678d46febb5b7646
+93	235	6493171798326295	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/rtx_lib.o	f2e99ea66a205f75
+1	24	6493171796321612	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/startup_TM4C1294.o	df82b33b16d8a700
+13	211	6493171798116807	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/driverleds.o	9bff95384570e70f
+25	357	6493030041604071	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/blinky.o	8f5de76eb6fbecb2
+3	160	6493030061896392	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Exe/blinky.out	edfd49a3d8d142ad
+177	186	6493030062295759	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Exe/blinky.bin	881da74d8aa8c380
+1	31	6493172102318235	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/startup_TM4C1294.o	df82b33b16d8a700
+14	289	6493172104871403	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/RTX_Config.o	75080e2f3cb0538e
+212	335	6493172105340176	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/system_TM4C1294_TW.o	678d46febb5b7646
+40	366	6493172105569541	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/rtx_lib.o	f2e99ea66a205f75
+18	379	6493172105619434	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/driverleds.o	9bff95384570e70f
+1	27	6493172236958185	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/startup_TM4C1294.o	df82b33b16d8a700
+6	120	6493172237726158	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/RTX_Config.o	75080e2f3cb0538e
+34	181	6493172238444206	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/rtx_lib.o	f2e99ea66a205f75
+14	208	6493172238713513	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/driverleds.o	9bff95384570e70f
+97	231	6493172238893009	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/blinky/ewarm/Obj/system_TM4C1294_TW.o	678d46febb5b7646
