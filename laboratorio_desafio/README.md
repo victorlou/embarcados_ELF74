@@ -4,7 +4,3 @@ A culmination of several embedded systems concepts into one lab. This lab is loo
 * osMessageQueueId_t initialization and functions;
 * Creation of appropriate diagrams to model the software;
 * Combine threads, mutexes, queues, flags and interruptions.
-
-### HEADS-UP
-
-This lab is not yet fully functional.

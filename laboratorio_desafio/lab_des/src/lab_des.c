@@ -2,8 +2,6 @@
  * Observations:
  *      Attempting to use the following example as reference for PWM
  *    ti\TivaWare_C_Series-2.1.4.178\examples\peripherals\pwm\reload_interrupt.c
- *
- *      NOT FINISHED!
  *---------------------------------------------------------------------------*/
 
 #include "system_tm4c1294.h" // CMSIS-Core
@@ -11,7 +9,7 @@
 #include "cmsis_os2.h" // CMSIS-RTOS
 #include "driverbuttons.h"
 
-#define QUEUE_SIZE 8
+#define QUEUE_SIZE 1
 
 // Struct to be passed as argument to the threads
 struct selection
@@ -39,15 +37,17 @@ const osMutexAttr_t Phases_Mutex_attr = {
 
 volatile uint8_t pwm_event = 0, led_event = 0;
 
+
+// USAE BUTTON READ
 // Identify which button was pressed to flag the correct event
 void GPIOJ_Handler(void){
-  if(!GPIO_PORTJ_DATA_R&0x10){
+  if(!ButtonRead(USW1)){
     ButtonIntClear(USW1);
-    pwm_event = 1;
-  }
-  else(!GPIO_PORTJ_DATA_R&0x01)){
-    ButtonIntClear(USW2);
     led_event = 1;
+  }
+  else if (!ButtonRead(USW2)){
+    ButtonIntClear(USW2);
+    pwm_event = 1;
   }
 }
 
@@ -55,9 +55,8 @@ void GPIOJ_Handler(void){
 /*----------------------------------------------------------------------------
  *      Switch LED on (PROTECTED)
  *---------------------------------------------------------------------------*/
-void Switch_On (int led, uint32_t pwm_state) {
+void Switch_On (int led) {
   osMutexAcquire(phases_mut_id, osWaitForever); // try to acquire mutex
-  // PROPERLY IMPLEMENT PWM
   LEDOn(led);
   osMutexRelease(phases_mut_id);
 }
@@ -71,6 +70,22 @@ void Switch_Off (int led) {
   osMutexRelease(phases_mut_id);
 }
 
+/*----------------------------------------------------------------------------
+ *      PWM
+ *---------------------------------------------------------------------------*/
+void pwm_led(struct selection* select, uint32_t pwm_state) {
+  int i;
+  for (i = 0; i < select->act_period*2; i++){
+    if ((i%10+1)<=pwm_state){
+      Switch_On(select->led);
+    }
+    else{
+      Switch_Off(select->led);
+    }
+  } // for
+} // pwm_led
+
+
 
 /*----------------------------------------------------------------------------
  *      acionadora: Activates an argument LED
@@ -83,9 +98,9 @@ void acionadora (void *argument) {
     osThreadFlagsWait(0x0001, osFlagsWaitAny ,osWaitForever);    /* wait for an event flag 0x0001 */
     // Retrieve correspondent PWM state
     if (osMessageQueueGet(mid_MsgQueue, &pwm_state, NULL, 0U) == osOK){
-      Switch_On(select->led, pwm_state);
-      osDelay(select->act_period);
+      pwm_led(select, pwm_state);
       Switch_Off(select->led);
+      osDelay(select->act_period);
     }
   }
 }
@@ -99,13 +114,14 @@ void controladora (void *argument) {
   
   for (;;) {
     if (pwm_event){
-      pwm_event = 0;
-      
       pwm++;
-      pwm &= 0x0A; // produce new information
+      if (pwm==11){
+        pwm = 1;
+      }
+      
+      pwm_event = 0;
     }
     else  if(led_event){
-      led_event = 0;
       if (acionador_atual==tid_led1){
         acionador_atual = tid_led2;
       }
@@ -118,11 +134,11 @@ void controladora (void *argument) {
       else if (acionador_atual==tid_led4){
         acionador_atual = tid_led1;
       }
+      led_event = 0;
     }
     
     if(osMessageQueuePut(mid_MsgQueue, &pwm, 0U, 0U) == osOK){
       osThreadFlagsSet(acionador_atual, 0x0001);
-      osDelay(500);
     }
     
   }
@@ -133,10 +149,10 @@ void controladora (void *argument) {
  *      Main: Initialize
  *---------------------------------------------------------------------------*/
 void app_main (void *argument) {
-  struct selection first = {LED1, 500};
-  struct selection second = {LED2, 500};
-  struct selection third = {LED3, 500};
-  struct selection fourth = {LED4, 500};
+  struct selection first = {LED1, 1000};
+  struct selection second = {LED2, 1000};
+  struct selection third = {LED3, 1000};
+  struct selection fourth = {LED4, 1000};
   
   tid_controladora  = osThreadNew(controladora,  NULL, NULL);
   tid_led1 = osThreadNew(acionadora, &first, NULL);
