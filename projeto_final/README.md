@@ -5,7 +5,7 @@ Use concurrent programming with RTOS, interruptions and integrated peripherals f
 * Complete project development, starting with requirements gathering, moving to modeling, then implementing and finally testing;
 * Use of threads, message queues, mutexes and flags for control.
 
-[sim](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/images/elevator_sim.png)
+![sim](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/images/elevator_sim.png)
 
 ### Requirements
 
