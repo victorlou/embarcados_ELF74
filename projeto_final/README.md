@@ -21,6 +21,9 @@ The elicitation of requirements is of paramount importance to the success of any
 | FR06  | An elevator shall only move between floors given an input on its corresponding section (left, center or right).  |
 | FR07  | Each elevator is required to use a message queue for command input.  |
 | FR08  | Each elevator is required to request access to a mutex on command output.   |
+| FR09  | The system must indicate to the user that a button was pressed inside a simulated elevator by lighting it up.  |
+| FR10  | The system must halt an elevator for three seconds with its doors open upon reaching a new destination.  |
+| FR11  | An elevator must remain stationary with its doors closed given no new input from the user.  |
 
 
 | Non-Functional Requirement  | Description   |
