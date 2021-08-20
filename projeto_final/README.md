@@ -28,14 +28,13 @@ The elicitation of requirements is of paramount importance to the success of any
 | FR07  | The system shall indicate to the user that a button was pressed inside a simulated elevator by lighting it up.  |
 | FR08  | The system shall turn off the correspondent inside button light once the elevator reaches its destination.  |
 | FR09  | The system is requested to open the door of the elevator once this reaches its destination.  |
-| FR10  | The system must halt an elevator for three seconds with its doors open upon reaching a new destination.  |
-| FR11  | The system must open elevator doors only when one is not in movement.  |
-| FR12  | The system must open elevator doors only when one is leveled with one of the 16 floors. |
-| FR13  | The system must ensure an elevator remains stationary with its doors closed given no new input from the user.  |
-| FR14  | The system shall perform user input requests in sequential order, given no matching movement pattern.\* |
-| FR15  | The system shall prioritize elevator stops at floors in floor order, not in the sequence they were pressed, given the opportunity.\* |
-| FR16  | The system shall conduct an elevator to the highest floor given two input commands from outside buttons to go down.\*\* |
-| FR17  | The system shall conduct an elevator to the lowest floor given two input commands from outside buttons to go up.\*\* |
+| FR10  | The system must open elevator doors only when one is not in movement.  |
+| FR11  | The system must open elevator doors only when one is leveled with one of the 16 floors. |
+| FR12  | The system must ensure an elevator remains stationary with its doors closed given no new input from the user.  |
+| FR13  | The system shall perform user input requests in sequential order, given no matching movement pattern.\* |
+| FR14  | The system shall prioritize elevator stops at floors in floor order, not in the sequence they were pressed, given the opportunity.\* |
+| FR15  | The system shall conduct an elevator to the highest floor given two input commands from outside buttons to go down.\*\* |
+| FR16  | The system shall conduct an elevator to the lowest floor given two input commands from outside buttons to go up.\*\* |
 
 \* To further illustrate these functional requirements, consider the following situation which happens in this order:
 * Elevator at ground level;
@@ -60,7 +59,8 @@ Again, the system will not answer these requests in sequential order. The elevat
 | NFR01  | The system is requested to initiate the movement of the elevator at most in 500ms upon receiving a new request.  |
 | NFR02  | The system is requested to stop an elevator in up to 100ms when reaching a new destination.  |
 | NFR03  | The system is requested to open the doors of an elevator in up to 100ms upon stopping at a new destination.  |
-| NFR04  | The system must ignore when a button is pressed repeatedly for a request that is already being treated. |
+| NFR04  | The system must halt an elevator for 3 seconds with its doors open upon reaching a new destination.  |
+| NFR05  | The system must ignore when a button is pressed repeatedly for a request that is already being treated. |
 
 
 | Constraint  | Description |
