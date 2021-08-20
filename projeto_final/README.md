@@ -70,3 +70,16 @@ Again, the system will not answer these requests in sequential order. The elevat
 | C03  | The software shall be programmed using the C programming language.  |
 | C04  | The system must communicate through the UART interface.  |
 | C05  | The system must communicate using only the commands given by the [simulator manual](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/docs/Manual_simulador_elevador.pdf). |
+
+
+### Project Architecture
+
+Defining the architecture of the project before implementing it ensures that its structure and functionalities are well defined and thought out. This process makes it easier to understand the whole system and makes the decision-making process more efficient.
+
+The following image depicts the object diagram of the system, including the instances to be used — such as objects, threads and data structures. This high level illustration highlights **what** the system effectively has as its objetive.
+
+![sim](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/images/object_diagram.png)
+
+On the other hand. the following behavioural (activity) diagram goes deeper in explaining **how** the system is projected to achieve its objective. This low level illustration requires a more intrinsic understanding of the problem's domain and peculiarities.
+
+![sim](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/images/activity_diagram.png)
