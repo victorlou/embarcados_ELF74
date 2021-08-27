@@ -1,0 +1,22 @@
+# ninja log v5
+0	54	6517359885048608	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/startup_TM4C1294.o	46e8887a94f23a28
+1	33	6517360788972033	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/startup_TM4C1294.o	46e8887a94f23a28
+0	33	6517361082898983	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/startup_TM4C1294.o	46e8887a94f23a28
+14	153	6517361084110846	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/RTX_Config.o	2b31e08569b907f9
+18	192	6517361084270417	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/rtx_lib.o	25cdde1b8ad589b4
+174	296	6517361085517087	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/system_TM4C1294_TW.o	5a587638e87052c3
+41	326	6517361085756438	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/uartstdio.o	c86b5e2ded2d56ff
+5	387	6517361086439908	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/elevator_sim.o	e6271c15c9deeb25
+403	534	6517361087866904	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/UART_inst.out	414c559b78ab7e0e
+557	567	6517361088325291	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/elevator_sim.bin	da96249720452f9c
+2	40	6517361644886390	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/startup_TM4C1294.o	46e8887a94f23a28
+22	170	6517361646202749	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/RTX_Config.o	2b31e08569b907f9
+6	219	6517361646372296	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/rtx_lib.o	25cdde1b8ad589b4
+49	255	6517361646890913	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/system_TM4C1294_TW.o	5a587638e87052c3
+17	452	6517361649025216	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/elevator_sim.o	e6271c15c9deeb25
+188	483	6517361649294484	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Obj/uartstdio.o	c86b5e2ded2d56ff
+501	633	6517361650920156	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/UART_inst.out	5b1a218fb291851c
+501	633	6517361650920156	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/List/UART_inst.map	5b1a218fb291851c
+654	664	6517361651259249	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/elevator_sim.bin	da96249720452f9c
+2	152	6517361658965838	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/UART_inst.out	414c559b78ab7e0e
+178	188	6517361659485889	C:/Users/victo/Downloads/Estudo/Universidade/8/Sistemas_Embarcados-ELF74/Projetos/TM4C1294_RTOS_IAR9-main/Projects/elevator_sim/ewarm/Exe/elevator_sim.bin	da96249720452f9c
