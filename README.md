@@ -17,7 +17,7 @@ This project is still in development and the following tasks correspond to the s
 - [x] Laboratorio 04
 - [x] Laboratorio 05
 - [x] Laboratorio 06
-- [ ] Final Project
+- [x] Final Project
 
 ## 💻 Prerequisites
 

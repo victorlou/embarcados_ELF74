@@ -83,3 +83,8 @@ The following image depicts the object diagram of the system, including the inst
 On the other hand. the following behavioral (activity) diagram goes deeper in explaining **how** the system is projected to achieve its objective. This low-level illustration requires a more intrinsic understanding of the problem's domain and peculiarities.
 
 ![sim](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/images/activity_diagram.png)
+
+
+### Final Implementation
+
+This project's implementation is exemplified in this [youtube video](https://www.youtube.com/watch?v=AS6nIPBg4VM) and can be found in [this folder](https://github.com/victorlou/embarcados_ELF74/blob/main/projeto_final/elevator_sim/) of the repository.
